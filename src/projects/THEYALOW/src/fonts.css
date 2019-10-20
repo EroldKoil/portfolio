@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Segoe WP';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe WP N'), url('files/fonts/SegoeWPN.woff') format('woff');
+}
+@font-face {
+    font-family: 'Lucida Sans Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lucida Sans Italic'), url('files/fonts/LSANSI.woff') format('woff');
+}
+@font-face {
+    font-family: 'Asap Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Asap Regular'), url('files/fonts/Asap-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('files/fonts/Segoe UI.woff') format('woff');
+}
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PT Sans'),url('files/fonts/Pt sans.woff') format('woff');
+}
+@font-face {
+    font-family: 'Segoe WP Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('files/fonts/Segoe WP Light.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans'), url('files/fonts/Open Sans.ttf') format('ttf');
+}
+

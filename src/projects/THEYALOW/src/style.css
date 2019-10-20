@@ -1,0 +1,662 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1847px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.mainBG{
+    height: 1847px;
+    width: 1300px;
+    background-image: url("files/background/MainBG.png");
+}
+
+.topBG{
+    height: 566px;
+    width: 1300px;
+    position: absolute;
+}
+.top{
+    height: 566px;
+    width: 1300px;
+    background-image: url("files/background/BG1.png");;
+    z-index: 2;
+}
+
+/* HEADER*/
+header{
+    display: flex;
+    height: 150px;
+    width: inherit;
+}
+.text-header h1{
+    position: relative;
+    right: 6px;
+    font-size: 41px;
+    line-height: 30px;
+    outline-width: 225px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans Italic";
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1.732px 0px rgba(0,0,0,0.42);
+    margin: 0;
+}
+.text-header {
+    display: block;
+    height: 30px;
+    width: 225px;
+    margin: 60px 0 0 9px;
+}
+
+.logo{
+    height: 79px;
+    width: 315px;
+    margin-left: 142px;
+    margin-top: 30px;
+}
+
+nav {
+    display: flex;
+    height: 49px;
+    width: 461px;
+    margin: 63px 0 0 242px;
+    background-image: url("files/background/BGnav.png");
+    z-index: 3;
+}
+
+nav a{
+    display: inline-flex;
+    height: 41px;
+    text-decoration: none;
+}
+
+.about_as{
+    width: 173px;
+    margin: 8px 1px 0 7px;
+}
+.service{
+    width: 132px;
+    margin: 8px 1px 0 0;
+}
+.contact{
+    width: 147px;
+    margin-top: 8px;
+}
+.about_as-ico{
+    height: 21px;
+    width: 23px;
+    margin: 9px 0 11px 39px;
+}
+.services-ico{
+    height: 22px;
+    width: 23px;
+    margin: 8px 0 11px 12px;
+}
+.contact-ico{
+    height: 21px;
+    width: 28px;
+    margin: 8px 0 12px 15px;
+}
+
+.about_as-p{
+    margin: 10px 14px 13px 9px;
+}
+.service-p{
+    margin: 10px 17px 13px 7px;
+}
+.contact-p{
+    margin: 10px 22px 13px 8px;
+}
+nav a p{
+    display: block;
+    line-height: 19px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    text-transform: uppercase;
+}
+.logo-header{
+    height: 83px;
+    width: 83px;
+    margin: 28px 0 0 140px;
+}
+
+/* HEADER end*/
+
+/* PLAYER */
+.under-header {
+    display: flex;
+    height: 416px;
+    width: inherit;
+}
+.left-u-header, .right-u-header{
+    width: 32px;
+    height: 57px;
+}
+.left-u-header{
+    background-color: rgba(245, 197, 6, 0.71);
+    right: 0px;
+    margin: 150px 0 auto 0 ;
+}
+.right-u-header{
+    background-color: rgb(245, 197, 6);
+    right: 0px;
+    margin: 150px 0 auto 0;
+}
+
+.left-u-header-img, .right-u-header-img{
+    height: 23px;
+    width: 13px;
+}
+.left-u-header-img{
+    margin: 17px 11px 19px 8px ;
+}
+.right-u-header-img{
+    margin: 16px 11px 20px 9px ;
+}
+
+.player{
+    height: 327px;
+    width: 549px;
+    margin: 18px 0 auto 118px ;
+    box-shadow: 0 0 5px
+}
+video{
+    height: inherit;
+    width: inherit;
+    poster: "earth-video-screenshot.jpg";
+}
+.control{
+    position: relative;
+    display: flex;
+    height: inherit;
+    width: inherit;
+    bottom: 331px;
+    flex-flow:row wrap;
+    align-content:start;
+    justify-content:start;
+
+}
+.play-round-button{
+    display: block;
+    height: 67px;
+    width: 67px;
+    border-radius: 33px;
+    margin: 130px 241px 0 241px;
+    background-color: rgba(245, 197, 5, 0.72);
+}
+.play-round-button img{
+    height: 34px;
+    width: 19px;
+    margin: 17px 21px 16px 27px;
+}
+.play-square-button{
+    display: inline-block;
+    position: inherit;
+    height: 27px;
+    width: 27px;
+    margin: 81px 0px 22px 29px;
+    background-color: rgba(245, 197, 5, 0.37);
+}
+.play-square-button img{
+    height: 21px;
+    width: 10px;
+    margin: 3px 7px 5px 10px;
+}
+.scroll-bar{
+    display: inline-block;
+    height: 12px;
+    width: 404px;
+    border-radius: 5px;
+    margin: 89px 0 29px 24px;
+    background-color: rgba(245, 197, 5, 0.28);
+}
+.scroll-bar-small{
+    height: 12px;
+    width: 179px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(245, 197, 7);
+}
+.volume{
+    height: 15px;
+    width: 15px;
+    margin: 88px 19px 27px 31px;
+}
+/* PLAYER end */
+
+.the-cool{
+    height: 121px;
+    width: 392px;
+    margin: 108px auto 187px 51px
+}
+.the-cool p{
+    line-height: 46px;
+    font-size: 62px;
+    letter-spacing: 1px;
+    font-family: "Asap Regular";
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.cool-yellow{
+    color: #f5c506;
+    margin: 0 15px 29px 0;
+}
+.cool-white{
+    color: #fff;
+    margin:0;
+}
+
+/*icon-area */
+
+.icon-area{
+    display: inline-flex;
+    height: 212px;
+    width: 1300px;
+    background-image: url("files/background/BG2.png");
+    z-index: 2;
+}
+.better-design{
+    height: 212px;
+    width: 340px;
+    margin: 0 1px 0 140px;
+}
+.better-design img{
+    height: 77px;
+    width: 111px;
+    margin: 60px 118px 0 112px;
+}
+.better-design p{
+    margin: 11px 57px 38px 76px;
+}
+
+.icon-area div>p{
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 21px;
+}
+
+.customise{
+    height: 212px;
+    width: 338px;
+    margin: 0 1px 0 0px;
+}
+.customise img {
+    height: 95px;
+    width: 98px;
+    margin: 37px 110px 0 129px;
+}
+.customise p{
+    margin: 17px 91px 37px 108px;
+}
+.its-free{
+    height: 212px;
+    width: 340px;
+    margin: 0 141px 0 0px;
+}
+.its-free img {
+    height: 85px;
+    width: 82px;
+    margin: 53px 139px 0 118px;
+}
+.its-free p{
+    margin: 11px 126px 37px 110px;
+}
+/*icon-area end*/
+/*SECTION-1*/
+.section1{
+    display: inline-block;
+    height: 509px;
+    width: 1300px;
+    background-image: url("files/background/BG3.png");
+}
+.s1{
+    height: 467px;
+    width: 1019px;
+    margin: 0 142px 0 139px;
+    display: block;
+}
+.s1-text{
+    display: block;
+    height: 28px;
+    width: 522px;
+    margin: 42px auto 40px 2px;
+}
+.s1-text>p{
+    display: block;
+    font-family: "PT Sans";
+    font-size: 28.2pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+.scroll{
+    display: flex;
+    height: 233px;
+    width: 1019px;
+    margin: 40px 142px 0 0;
+}
+.scroll-1-text{
+    display: inline-block;
+    height: inherit;
+    width: 341px;
+    background-color: rgb(236, 158, 3);
+}
+.scroll-1-text>p{
+    margin: 17px 35px 0px 31px;
+    font-family: "Segoe UI";
+    font-size: 20.9pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+    line-height: 38px;
+}
+.scroll-1-text>img{
+    height: 11px;
+    width: 11px;
+    margin: auto 14px 13px 316px;
+}
+.scroll-1-player{
+    display: inline-block;
+    height: 232px;
+    width: 315px;
+    margin: auto 14px 13px 316px;
+    background-image: url("files/images/player-2.png");
+    margin: 0;
+}
+.scroll-1-player>div{
+    height: 61px;
+    width: 61px;
+    margin: 93px 124px 78px 130px;
+    border-radius: 30px;
+    background-color: rgba(256, 202, 26, 0.72);
+}
+.scroll-1-player>div>img{
+    height: 31px;
+    width: 17px;
+    margin: 15px 19px 15px 25px;
+}
+.scroll-2{
+    display: flex;
+    flex-flow:row wrap;
+    height: inherit;
+    width: 329px;
+    background-color: rgb(236, 158, 3);
+    margin: 0 0 0 33px;
+}
+.twitter img{
+    height: 156px;
+    width: 163px;
+    margin: 58px 0px 0 79px;
+}
+
+.scroll-2-number{
+    display: inline-block;
+    height: 18px;
+    width: 22px;
+    margin: 8px 20px 0 39px;
+}
+.scroll-2-number>p {
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 39px;
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-weight: 300;
+}
+.scroll-2-plus{
+    height: 11px;
+    width: 11px;
+    margin: -18px 9px 6px auto;
+}
+.date{
+    display: block;
+    padding: 13px 25px 6px 31px;
+    height: 86px;
+    width: 113px;
+    background-color: rgb(221, 177, 1);
+}
+.day{
+    font-size: 49px;
+    letter-spacing: 2px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    text-align: center;
+}
+.month{
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "Segoe UI";
+    text-align: center;
+    text-transform: uppercase;
+}
+.scroll-bar-2{
+    display: block;
+    width: 896px;
+    height: 15px;
+    margin: 43px auto 22px 74px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.48);
+}
+.scroll-bar-small-2{
+    display: block;
+    margin: 0 auto 0 247px;
+    width: 197px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: rgb(236, 158, 3);
+}
+/*SECTION-1 end*/
+/*SECTION-2*/
+.section2{
+    display: inline-block;
+    height: 499px;
+    width: 1300px;
+    background-image: url("files/background/BG4.png");
+}
+.s2-text{
+    margin: 48px auto 0 350px;
+    font-size: 32.8pt;
+    letter-spacing: 0px;
+    color: #f5c506;
+    font-family: "PT Sans";
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.pc{
+    display: inline-block;
+    margin: 57px 0 auto 158px
+}
+.pc-big{
+    height: 255px;
+    width: 323px;
+}
+.pc-medium{
+    height: 173px;
+    width: 129px;
+    margin: 42px 0px 40px 21px;
+}
+.pc-small{
+    height: 63px;
+    width: 39px;
+    margin: 152px 0 40px 20px;
+}
+.discount{
+    width: 116px;
+    height: 116px;
+    position: relative;
+    bottom: 298px;
+    right: 20px;
+    border-radius: 58px;
+    background-color: #f5c506;
+}
+.discount p{
+    font-size: 12.3pt;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 118px;
+    height: 116px;
+}
+.list{
+    width: 406px;
+    display: inline-block;
+    margin: 101px 0px 0px 107px;
+    position: relative;
+    bottom: 67px;
+}
+.list ul{
+    list-style-image: url(files/ico/ul.svg);
+}
+.list ul li{
+    padding-top: 17px;
+}
+.list ul li p{
+    font-size: 27px;
+    letter-spacing: -1.3px;
+    color: #a9a9a7;
+    font-weight: 400;
+    line-height: 29.0px;
+    font-family: "PT Sans";
+}
+
+
+/*SECTION-2 end*/
+footer{
+    display: inline-block;
+    height: 64px;
+    width: 1300px;
+    box-shadow: -0.105px -2.998px 5px;
+    background-image: url("files/background/BG5.png");
+}
+.footer-logo{
+    display: inline-block;
+    height: 51px;
+    width: 51px;
+    margin: 5px 0 4px 141px;
+}
+.footer-text{
+    display: inline-block;
+    margin: 23px 9px 20px 4px;
+    position: relative;
+    bottom: 19px;
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans Italic";
+    text-transform: uppercase;
+}
+
+/*HOVER*/
+.about_as:hover,
+.service:hover,
+.contact:hover,
+.play-round-button:hover,
+.play-square-button:hover,
+.scroll-bar:hover,
+.icon-area>div:hover,
+.left-u-header:hover,
+.right-u-header:hover,
+.scroll-1-player>div:hover,
+.scroll-bar-2:hover
+{
+    background-color: rgba(100,150,150,0.3);
+}
+
+.scroll-1-text>img:hover,
+.scroll-2-plus>img:hover
+{
+    height: 16px;
+    width: 16px;
+    position: relative;
+    right: 2px;
+    bottom: 2px;
+}
+
+.mobile-desctop , .back{
+    display: flex;
+    position: fixed;
+    height: 50px;
+    border: 6px solid #ae9f523b;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 6;
+    color: #735b4066;
+    font-size: 26px;
+    align-items: center;
+    background-color: #cddd6347;
+    text-decoration: none;
+}
+.mobile-desctop{
+    right: 0px;
+    top: 0;
+}
+.back{
+    right: 0px;
+    top: 60px;
+}
+.mobile-desctop:hover , .back:hover{
+     border: 6px solid #4a442273;
+     color: #150d03;
+}
+
+
+
+@media(max-width: 650px){
+    body{
+        width: 100%;
+        height: auto;
+    }
+    .mainBG{
+        width: 100%;
+        height: auto;
+    }
+    .top{
+        width: 100%;
+        height: auto;
+        background-image: none;
+    }
+    header{
+        align-items: center;
+    }
+    .logo-header{
+        margin: 0 5px;
+        height: 55px;
+        width: 55px;
+    }
+    .text-header{
+        margin: 0;
+    }
+    .text-header h1{
+        font-size: 25px;
+    }
+    header nav{
+        margin: 0;
+    }
+}
